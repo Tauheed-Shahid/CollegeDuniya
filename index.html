@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<link rel="stylesheet" href="style.css">
+	<title>CollegDuniya</title>
+
+	<style>
+		.fa-bookmark {
+			position: relative;
+			top: 83px;
+			left: 595px;
+			z-index: 1;
+		}
+
+
+
+		.cards {
+			border-radius: 4px;
+			background: #fff;
+			box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+		}
+
+		.cards:hover {
+			box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+		}
+
+
+		.img img {
+			position: relative;
+		}
+
+		.img .btn-warning {
+			position: absolute;
+			top: 10%;
+			left: 81%;
+		}
+
+		.btn-light {
+			position: absolute;
+			top: 45%;
+			left: 2%;
+		}
+
+		.btn2 {
+			margin-left: 165px;
+		}
+
+		.darker {
+			filter: brightness(30%);
+		}
+
+		.img>small {
+			position: absolute;
+			top: 48%;
+			left: 62%;
+			color: white;
+		}
+
+		.left h1 {
+			font-size: 1rem;
+			font-weight: 800;
+		}
+
+		.left h3 {
+			font-size: .9rem;
+			font-weight: 400;
+		}
+
+		.left h3 small {
+			font-size: .8rem;
+			font-weight: 200;
+			line-height: 1.6;
+			color: #606060;
+		}
+
+		.left p {
+			font-size: .8rem;
+		}
+
+		.left p strong {
+			color: #4FB8DD;
+		}
+
+		.left button {
+			background-color: #9bf9bb;
+			margin-left: -15px;
+		}
+
+		.left button div {
+			font-size: .9rem;
+		}
+
+
+
+
+		.tags {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			left: 550px;
+			bottom: 128px;
+			list-style: none;
+			color: red;
+		}
+
+		.tags li,
+		.tags a {
+			float: right;
+			height: 24px;
+			line-height: 24px;
+			position: relative;
+			font-size: 11px;
+		}
+
+
+		.tags a {
+			margin-left: 20px;
+			padding: 0 10px 0 12px;
+			background: red;
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.tags a:before {
+			content: "";
+			float: left;
+			position: absolute;
+			top: 0;
+			left: -12px;
+			width: 0;
+			height: 0;
+			border-color: transparent red transparent transparent;
+			border-style: solid;
+			border-width: 12px 12px 12px 0;
+		}
+
+
+
+		/* =========== Right Content ========== */
+
+		.amount {
+			position: relative;
+		}
+
+		.amount::after {
+			content: "";
+			width: 100%;
+			height: 1px;
+			background: black;
+			position: absolute;
+			bottom: 11px;
+			left: 0;
+		}
+
+		.right p {
+			position: absolute;
+			top: 61%;
+			left: 80%;
+			color: #606060;
+		}
+
+		.right h1 {
+			position: absolute;
+			top: 68%;
+			left: 78%;
+		}
+
+		.right span p {
+			position: absolute;
+			top: 81%;
+			left: 75%;
+			font-size: .8rem;
+			color: #606060;
+		}
+
+		.right strong p {
+			position: absolute;
+			top: 89%;
+			left: 67%;
+			font-size: .9rem;
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--  Main Section Begins -->
+
+	<section id="section" class="sections">
+		<i class="fas fa-3x fa-bookmark fa-rotate-90"></i>
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<p>Colleges in North India</p>
+
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 d-block m-auto">
+					<div class="card cards mt-3">
+
+						<div class="img">
+							<img class="card-img-top darker" src="college.jpg" alt="Card image cap">
+							<button class="btn btn-warning text-white">
+								<strong>3.9</strong>/ <small>5</small> <br> Very Good
+							</button>
+
+							<a class="btn btn-light btn1 rounded-pill">
+								Best College 2018
+							</a>
+
+							<a class="btn btn-light btn2 rounded-pill">
+								2 kms away
+							</a>
+
+							<small>#7 in 260 colleges in north campus</small>
+						</div>
+
+						<div class="card-body">
+							<!-- <div class="container-fluid">
+								<div class="row"> -->
+							<div class="left d-inline-block">
+								<h1>
+									Hansraj College Delhi University
+									<small>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="far fa-star"></i>
+									</small>
+								</h1>
+
+								<h3>
+									Near Vishwavidyalaya Metro Station
+									<small>
+										| 2 Kms away from bus stand
+									</small>
+								</h3>
+
+								<p>
+									<strong>
+										93% Match:
+										<span style="color: black;">2.5Kms</span>
+									</strong>
+
+									<span style="color: #606060;">
+										from GTB Nagar,
+									</span>
+
+									<strong>
+										<span style="color: black;">7Kms</span>
+									</strong>
+
+									<span style="color: #606060;">
+										from Rajiv Chauk
+									</span>
+								</p>
+
+								<button class="btn rounded-pill">
+									<div>
+										Flat
+										<strong><span style="color: black;">Rs</span></strong>
+
+										<span><strong style="color: aqua;">2,000</strong></span>
+
+										<strong><span style="color: black;">off + upto Rs</span></strong>
+
+										<span><strong style="color: aqua;">500</strong></span>
+
+										<strong><span style="color: black;">wallet! to avai...</span></strong>
+										<span><strong style="color: blue;">Login</strong></span>
+									</div>
+								</button>
+
+							</div>
+
+							<div class="right d-inline-block">
+								<p class="amount">
+									₹6,8756
+								</p>
+
+								<ul class="tags">
+									<li><a href="#">20</a></li>
+								</ul>
+
+								<h1 class="text-danger">
+									₹5,768
+								</h1>
+
+								<span>
+									<p>Per Semester (3 months)</p>
+								</span>
+
+								<strong>
+									<p>Free Cancellation . Free Wi-Fi</p>
+								</strong>
+
+							</div>
+							<!-- </div>
+							</div> -->
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 d-block m-auto">
+					<div class="card cards mt-3">
+
+						<div class="img">
+							<img class="card-img-top darker" src="college.jpg" alt="Card image cap">
+							<button class="btn btn-warning text-white">
+								<strong>3.9</strong>/ <small>5</small> <br> Very Good
+							</button>
+
+							<a class="btn btn-light btn1 rounded-pill">
+								Best College 2018
+							</a>
+
+							<a class="btn btn-light btn2 rounded-pill">
+								2 kms away
+							</a>
+
+							<small>#7 in 260 colleges in north campus</small>
+						</div>
+
+						<div class="card-body">
+							<!-- <div class="container-fluid">
+								<div class="row"> -->
+							<div class="left d-inline-block">
+								<h1>
+									Hansraj College Delhi University
+									<small>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="far fa-star"></i>
+									</small>
+								</h1>
+
+								<h3>
+									Near Vishwavidyalaya Metro Station
+									<small>
+										| 2 Kms away from bus stand
+									</small>
+								</h3>
+
+								<p>
+									<strong>
+										93% Match:
+										<span style="color: black;">2.5Kms</span>
+									</strong>
+
+									<span style="color: #606060;">
+										from GTB Nagar,
+									</span>
+
+									<strong>
+										<span style="color: black;">7Kms</span>
+									</strong>
+
+									<span style="color: #606060;">
+										from Rajiv Chauk
+									</span>
+								</p>
+
+								<button class="btn rounded-pill">
+									Flat Rs2,000 off + upto Rs 500 wallet! to avai...Login
+								</button>
+
+							</div>
+
+							<div class="right d-inline-block">
+								<p class="amount">
+									₹6,8756
+								</p>
+
+								<ul class="tags">
+									<li><a href="#">20</a></li>
+								</ul>
+
+								<h1 class="text-danger">
+									₹5,768
+								</h1>
+
+								<span>
+									<p>Per Semester (3 months)</p>
+								</span>
+
+								<strong>
+									<p>Free Cancellation . Free Wi-Fi</p>
+								</strong>
+
+							</div>
+							<!-- </div>
+							</div> -->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+
+.fa-bookmark{
+  position: relative;
+  top: 83px;
+  left: 595px;  
+  z-index: 1;
+}
+
+
+
+.cards{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
+
+.cards:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.img img{
+  position: relative;
+}
+
+.img .btn-warning{
+  position: absolute;
+  top: 10%;
+  left:81%;
+}
+
+.btn-light{
+  position: absolute;
+  top: 45%;
+  left:2%;
+}
+
+.btn2
+{
+  margin-left: 165px;
+}
+
+.darker{
+  filter: brightness(30%);
+}
+
+.img>small{
+  position: absolute;
+  top: 48%;
+  left:62%;
+  color: white;
+}
+
+.left h1{
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.left h3{
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.left h3 small{
+  font-size: .8rem;
+  font-weight: 200;
+  line-height: 1.6;
+  color: #606060;
+}
+
+.left p{
+  font-size: .8rem;
+}
+
+.left p strong{
+  color: #4FB8DD;
+}
+
+.left button{
+  background-color: #9bf9bb;
+  margin-left: -15px;
+}
+
+.left button div{
+  font-size: .9rem;
+}
+
+
+
+
+.tags {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 550px;
+  bottom:128px;
+  list-style: none;
+  color: red;
+}
+
+.tags li,
+.tags a {
+  float: right;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  font-size: 11px;
+}
+
+
+.tags a {
+  margin-left: 20px;
+  padding: 0 10px 0 12px;
+  background: red;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tags a:before {
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 0;
+  height: 0;
+  border-color: transparent red transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+
+
+
+/* =========== Right Content ========== */
+
+.amount{ 
+  position: relative;
+}
+.amount::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 11px;
+  left: 0;
+} 
+.right p{
+  position: absolute;
+  top: 61%;
+  left: 80%;
+  color: #606060;
+}
+
+.right h1{
+  position: absolute;
+  top: 68%;
+  left: 78%;
+}
+
+.right span p{
+  position: absolute;
+  top: 81%;
+  left: 75%;
+  font-size: .8rem;
+  color: #606060;
+}
+
+.right strong p{
+  position: absolute;
+  top: 89%;
+  left: 67%;
+  font-size: .9rem;
+  color: green;
+}
